@@ -1,4 +1,4 @@
 from subprocess import call
 from pyworks.io import Path
 
-call([Path.combine(install_script, "ansicon.exe"), "-i"])
+call([Path.combine(script_path, "ansicon.exe"), "-i"])
